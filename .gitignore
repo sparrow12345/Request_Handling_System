@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# TypeScript build output (if you build to dist/)
+dist/
+
+# Optional SQLite DB (only if not meant to be tracked)
+*.sqlite
+*.db
+
+# Docker artifacts
+*.dockerfile
+docker-compose.override.yml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Testing/coverage (if you use test runners later)
+coverage/
